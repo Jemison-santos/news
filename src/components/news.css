@@ -1,0 +1,54 @@
+.container{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+/* Estilo para o contêiner do card */
+.card {
+  width: 33%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+
+/* Estilo para a imagem no card */
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o título no card */
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilo para o texto no card */
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Estilo para o botão "Ver Mais" */
+.card button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para o botão "Ver Mais" ao passar o mouse */
+.card button:hover {
+  background-color: #f44336; /* Cor de realce ao passar o mouse */
+}

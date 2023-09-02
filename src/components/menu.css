@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+/* Estilo para o contêiner do menu */
+.menu-container {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Estilo para o nome do logo à esquerda */
+.logo {
+  font-size: 24px;
+}
+
+/* Estilo para a lista de opções de menu à direita */
+.menu-options {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+/* Estilo para cada item de menu */
+.menu-option {
+  margin-right: 20px;
+}
+
+/* Estilo para os links de menu */
+.menu-option a {
+  text-decoration: none;
+  color: white; /* Texto em branco */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Estilo para os links de menu ao passar o mouse */
+.menu-option a:hover {
+  color: #ff5722; /* Cor de realce ao passar o mouse (por exemplo, laranja) */
+}
